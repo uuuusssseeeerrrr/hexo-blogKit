@@ -13,7 +13,7 @@ timezone: 'asia/seoul'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kyoko.dev
+url: https://kyoko.dev
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -94,6 +94,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: aircloud
+plugins: hexo-generator-cname
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
